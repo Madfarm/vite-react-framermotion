@@ -1,0 +1,12 @@
+.Bruh {
+    height: 200px;
+    background-color: white;
+    width: 200px;
+    overflow: hidden;
+
+    transition: 800ms;
+}
+
+h3 {
+    color: black;
+}

@@ -3,10 +3,12 @@
     background-color: white;
     width: 200px;
     overflow: hidden;
-
-    transition: 800ms;
 }
 
 h3 {
     color: black;
+}
+
+.Butt {
+    color: gray;
 }

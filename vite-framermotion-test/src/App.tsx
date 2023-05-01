@@ -1,6 +1,7 @@
 import './App.css'
 import { motion } from 'framer-motion';
 import { Bruh } from './components/Bruh';
+import {Route, Routes} from 'react-router-dom';
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
           right: 50000,
           bottom: 50000,
         }}>Hellooooo</motion.div>
+
+      <Routes>
+        <Route path="/" element={<Bruh />} />
+      </Routes>
     </>
   )
 }
